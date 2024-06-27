@@ -132,6 +132,7 @@ a {
   }
 }
 /* Lists */
+
 .list {
   list-style: none;
   padding-left: 0;
@@ -576,6 +577,7 @@ a {
 }
 
 /* Blocks */
+
 .block {
   --padding-vertical: 6rem;
   padding: var(--padding-vertical) 2rem;
@@ -612,3 +614,24 @@ a {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* Nav Bar */
+
+.nav {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav__list {
+  width: 100%;
+}
+
+.nav__item {
+  padding: 0.5rem 2rem;
+  color: #d2d0db;
+  border-bottom: 1px solid #222;
+  
+}
+
